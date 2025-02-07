@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(41, 41, 41);
+    font-family: sans-serif;
+}
+.intro {
+    margin-top: 0;
+}
+
+#mensaje {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(32, 118, 32);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover{
+    background-color: rgb(27, 95, 27);
+}
+
+button:active {
+    background-color: rgb(61, 146, 61);;
+    color: rgb(16, 48, 16);
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+}
+
+
+input {
+    padding: 9px;
+    width: 200px;
+    font-size: 1em;
+}
